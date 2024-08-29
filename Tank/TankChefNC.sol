@@ -10,10 +10,6 @@ contract TankChef is Ownable {
     using SafeERC20 for IERC20;
 
     // Info of each user.
-    struct UserInfo {
-        uint256 amount;     // How many tokens the user has provided.
-        uint256 rewardDebt; // Reward debt. See explanation below.
-    }
 
     // Info of each pool.
     struct PoolInfo {
